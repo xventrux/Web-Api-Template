@@ -29,7 +29,7 @@ namespace API.AppServices.Services.BookServices
         /// Возвращает все книги
         /// </summary>
         /// <returns></returns>
-        public Task<GetManyBooksResponse> GetAllAsync();
+        public List<GetManyBooksResponse> GetAll();
 
         /// <summary>
         /// Редактирует книгу
